@@ -1,0 +1,32 @@
+---
+layout     : 'blank'
+css        : 'hotfix'
+standalone : true
+
+title      : 'Test Page'
+type       : 'Library'
+---
+<div class="ui container">
+    <div class="ui menu">
+  <div class="ui category search item">
+    <div class="ui transparent icon input">
+      <input class="prompt" type="text" placeholder="Search animals..." value="pizza">
+      <i class="search link icon"></i>
+    </div>
+    <div class="results"></div>
+  </div>
+</div>
+<div class="ui segment">
+  <p></p>
+</div>
+</div>
+<script>
+$(document).ready(function() {
+});
+
+</script>
+
+<!-- TEST CSS HERE !-->
+<style type="text/css">
+
+</style>
