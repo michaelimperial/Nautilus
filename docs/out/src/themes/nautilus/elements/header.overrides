@@ -1,0 +1,10 @@
+/*******************************
+         Theme Overrides
+*******************************/
+
+.ui.header {
+  color: @headerColor;
+}
+.ui.sub.header{
+	color: @textColor;
+}
